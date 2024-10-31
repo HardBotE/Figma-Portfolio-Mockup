@@ -1,0 +1,349 @@
+body {
+    background: #FFF8F0;
+    font-size: 16px;
+    max-width: 1440px;
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #190D37;
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hero {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#hero-image {
+    width: 100%;
+    border-radius: 0 0 200px 200px;
+}
+
+#top-content {
+    width: 50%;
+    padding-left: 190px;
+}
+
+#welcome_and_name {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #291854;
+}
+
+#contact-info {
+    margin: 30px 0;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+#contact-description {
+    width: 520px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+}
+
+.contact-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #2F2F2F;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#about,
+#projects {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 96px;
+}
+
+.whatido {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2858FF;
+}
+
+.selfpromo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #190D37;
+    margin: 8px auto 48px auto;
+    width: 686px;
+}
+
+.flashcards {
+    display: flex;
+    margin: 0 190px;
+}
+
+.flashcards-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 20px 20px 8px 20px;
+}
+
+.flashcards-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    padding: 0 20px 20px 20px;
+}
+
+.flashcard-wrapper {
+    background-color: #ffffff;
+    margin: 0 20px;
+    border: 1px solid;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    width: 33%;
+    border-radius: 10px;
+}
+
+.icon {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    background: #19ACFF;
+    padding: 44px;
+    border-radius: 10px;
+}
+
+.project_descriptions {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project_name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #291854;
+}
+
+.project_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_text div {
+    margin-left: 20px;
+}
+
+.project_detail {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 8px 0;
+    width: 880px;
+}
+
+.link {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6A87A3;
+    text-decoration: none;
+}
+
+#footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#pricing {
+    text-align: center;
+}
+
+#pricing_cards {
+    background: #FFFFFF;
+}
+
+.pricing_cards_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2858FF;
+}
+
+.dollar_price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin: 8px 0;
+}
+
+.price_per_page {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+
+.price_description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #8B8B8B;
+    margin-bottom: 8px;
+}
+
+.benefit_description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefits div {
+    margin-bottom: 8px;
+}
+
+#pricing div {
+    display: flex;
+    flex-direction: column;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#pricing_cards {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin: 0,auto;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card.highlighted {
+    background: #FFE819;
+    border-color: #FFD700;
+}
+
+.pricing_cards_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2858FF;
+    margin-bottom: 10px;
+}
+
+.dollar_price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.price_per_page {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A8A8A;
+}
+
+.price_description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+    margin-bottom: 20px;
+}
+
+.benefit_description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.benefits {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.benefits div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.kep {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.contact-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button.highlighted {
+    background: #000000;
+    color: #FFFFFF;
+}
+
